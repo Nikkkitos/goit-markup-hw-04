@@ -321,9 +321,13 @@ button:focus {
     fill:#f4f4fd;
 }
 /* Customers */
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .customers-tittle {
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -352,6 +356,9 @@ button:focus {
 .customers-item:focus {
     border-color: #404bbf;
     color: #404bbf;
+}
+.customer-icon {
+    fill: currentColor;
 }
 /* ========FOOTER======== */
 .footer {
