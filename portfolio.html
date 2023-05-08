@@ -19,23 +19,40 @@
   <body>
     <!--Header-->
     <header class="header">
-      <div class="container portfolio-conteiner">
-      <nav class="navigation">
-          <a class="link-logo link" href="./index.html">Web<span class="logo-text-portfolio">Studio</span></a>
-          <ul class="portfolio-nav-list list">
-            <li class="portfolio-menu-item link"><a class="menu-link link header-link" href="./index.html">Studio</a></li>
-            <li class="portfolio-menu-item link"><a class="menu-link link header-link" href="./portfolio.html">Portfolio</a></li>
-            <li class="portfolio-menu-item link"><a class="menu-link link header-link" href="">Contacts</a></li>
+      <div class="header-container container">
+        <nav class="navigation">
+          <a class="link-logo link" href="./index.html"
+            >Web<span class="header-logo-text">Studio</span></a
+          >
+          <ul class="header-menu-list list">
+            <li class="menu-item link">
+              <a class="menu-link link header-link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item link">
+              <a class="menu-link link header-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item link">
+              <a class="menu-link link header-link" href="">Contacts</a>
+            </li>
           </ul>
-      </nav>
-      <address class="portfolio-header-address list">
-        <ul class="portfolio-menu-list list">
-          <li class="portfolio-menu-item link"><a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="portfolio-menu-item link"><a class="address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
+        </nav>
+        <address class="header-address">
+          <ul class="list header-menu-list">
+            <li class="menu-item list">
+              <a class="address-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="menu-item list">
+              <a class="address-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
+    <!-- Menu -->
     <main>
       <section class="filter">
         <div class="container">
@@ -155,12 +172,49 @@
         </div>
       </section>
     </main>
+    <!-- Footer-->
     <footer class="footer">
-      <a class="footer-link link" href="./index.html">Web<span class="footer-text-portfolio">Studio</span></a>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container-footer">
+        <a class="footer-link link" href="./index.html"
+          >Web<span class="logo-text">Studio</span></a>
+        <p class="footer-par">
+          Increase the flow of customers and sales for your business with digital
+          marketing & growth solutions.
+        </p>
+      </div>
+      <div class="container-footer">
+          <p class="footer-par-media">Social media</p>
+          <ul class="footer-list-media list">
+            <li class="footer-item-media">
+              <a class="footer-link-media link" target="_blank" rel="noopener no-referrer" href="">
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item-media">
+              <a class="footer-link-media link" target="_blank" rel="noopener no-referrer" href="">
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item-media">
+              <a class="footer-link-media link" target="_blank" rel="noopener no-referrer" href="">
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item-media">
+              <a class="footer-link-media link" target="_blank" rel="noopener no-referrer" href="">
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>
     </footer>
   </body>
 </html>

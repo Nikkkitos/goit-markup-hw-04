@@ -467,24 +467,8 @@ button:focus {
   |  Portfolio
   |============================
   */
-.portfolio-nav-list {
-    display: flex;
-    gap: 40px;
-}
-.portfolio-menu-list {
-    display: flex;
-    gap: 40px;
-}
-.portfolio-menu-item {
-    padding: 24px 0;
-}
-
-
-/**
-  |============================
-  | Filter
-  |============================
-*/
+  
+/* Filter*/
 .filter {
     padding: 96px 0 120px;
 
