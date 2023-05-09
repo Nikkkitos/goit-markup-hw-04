@@ -366,8 +366,11 @@ button:focus {
 
     padding: 100px 0;
 }
-.container-footer {
+.container-div-footer {
     display: flex;
+    margin-right: 120px;
+}
+.container-footer {
     align-items: baseline;
     gap: 120px;
 }
