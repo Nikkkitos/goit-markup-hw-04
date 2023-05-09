@@ -149,6 +149,7 @@ HOVER
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin: auto;
 }
 .hero-btn {
     background-color: #4D5AE5;
@@ -159,7 +160,7 @@ HOVER
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-
+    margin: auto;
     display: block;
     min-width: 169px;
     height: 56px;
