@@ -175,7 +175,7 @@ button:focus {
   | Hero image
   |============================
 */
-.container-about {
+.container-img-about {
     display: flex;
     align-items: center;
     justify-content: center;
