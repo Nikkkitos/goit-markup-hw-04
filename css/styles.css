@@ -22,6 +22,7 @@ body {
 
 img {
     display: block;
+    margin: auto;
 }
 
 .link {
@@ -118,6 +119,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
+    font-weight: 400;
 }
 
 /* 
@@ -305,6 +307,7 @@ button:focus {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    padding: initial;
 }
 .socials-link {
     display: flex;
