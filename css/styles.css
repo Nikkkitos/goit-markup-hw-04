@@ -390,7 +390,7 @@ button:focus {
 }
 .footer-par {
     max-width: 264px;
-    color: var(--color-cloud);
+    color: #FFFFFF;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -402,14 +402,6 @@ button:focus {
 }
 .footer-span {
     color: var(--color-cloud);
-}
-.footer-par-media {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 16px;
 }
 .footer-list-media {
     display: flex;
