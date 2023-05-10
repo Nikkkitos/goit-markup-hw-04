@@ -339,6 +339,7 @@ button:focus {
 .customers-list {
     display: flex;
     gap: 24px;
+    padding-left: 0;
 }
 .customers-item {
     width: calc((100% - 120px) / 6);
@@ -392,6 +393,7 @@ button:focus {
 .footer-par {
     max-width: 264px;
     color: #FFFFFF;
+    margin-top: 0;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
