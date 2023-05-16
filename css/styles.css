@@ -17,7 +17,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--color-slate);
     background-color: var(--header-white);
-
 }
 
 img {
@@ -33,11 +32,6 @@ img {
     list-style: none;
 }
 .container {
-    width: 1158px;
-    margin: 0 auto;
-}
-.portfolio-conteiner {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -56,16 +50,18 @@ img {
 }
 .header-container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     padding: 0 15px;
 }
 .header-menu-list {
     display: flex;
-    gap: 40px
+    gap: 40px;
+    padding-left: 0px;
 }
 .header-menu-last {
-    margin-right: 0;
+    display: flex;
+    gap: 40px;
+    padding-left: 0px;
 }
 .header-link {
     padding: 24px 0 24px;
@@ -80,7 +76,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris);
-
     margin-right: 76px;
 }
 .header-logo-text {
@@ -106,13 +101,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue-modal);
-
-    margin-right: 40px;
 }
 
 /* ADDRESS */
 .header-address {
     font-style: normal;
+    margin-left: auto;
+    padding-left: 0px;
 }
 .address-link {
     font-size: 16px;
@@ -121,10 +116,6 @@ img {
     color: var(--color-slate);
     font-weight: 400;
 }
-
-/* 
-HOVER
-*/
 .address-link:hover,
 .address-link:focus {
     color: var(--color-ocean);
@@ -259,7 +250,7 @@ button:focus {
 }
 .team-list {
     display: flex;
-
+    gap: 24px;
     padding-left: 0;
 }
 .team-item {
@@ -272,9 +263,6 @@ button:focus {
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-}
-.team-list {
-    gap: 24px;
 }
 .team-info {
     padding: 32px 0;
@@ -370,17 +358,19 @@ button:focus {
 /* ========FOOTER======== */
 .footer {
     background-color: var(--color-grey);
-
     padding: 100px 0;
 }
 .container-div-footer {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+    margin-left: 156px;
 }
 .container-footer {
     align-items: baseline;
     gap: 120px;
+}
+.container-social-footer {
+    margin-left: 120px;
 }
 .footer-link {
     font-family: 'Raleway', sans-serif;
@@ -390,7 +380,6 @@ button:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris); 
-
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -413,6 +402,7 @@ button:focus {
 .footer-list-media {
     display: flex;
     gap: 16px;
+    padding: 0;
 }
 .footer-item-media {
     width: 40px;
