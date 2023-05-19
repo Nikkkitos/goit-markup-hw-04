@@ -366,7 +366,6 @@ button:focus {
 .container-div-footer {
     display: flex;
     align-items: baseline;
-    margin-left: 156px;
 }
 .container-footer {
     align-items: baseline;
