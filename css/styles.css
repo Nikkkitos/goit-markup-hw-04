@@ -212,7 +212,6 @@ button:focus {
 /* ========PORTFOLIO======== */
 .portfolio {
     padding-bottom: 120px;
-
 }
 .portfolio-text {
     font-size: 36px;
@@ -236,7 +235,6 @@ button:focus {
 /* ========TEAM======== */
 .team {
     background-color: #F4F4FD;
-
     padding: 120px 0 120px;
 }
 .team-text {
@@ -257,9 +255,7 @@ button:focus {
 }
 .team-item {
     background-color: #FFFFFF;
-
     width: calc((100% - 3 * 24px) / 4);
-
     box-shadow: 0px 1px 6px 
     rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 
@@ -482,7 +478,6 @@ button:focus {
 /* Filter*/
 .filter {
     padding: 96px 0 120px;
-
 }
 .filter-list {
     display: flex;
@@ -522,7 +517,6 @@ button:focus {
 }
 .filter-client {
     width: calc((100% - 48px) / 3);
-
     display: block;
 }
 .filter-client:hover,
